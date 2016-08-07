@@ -1,0 +1,45 @@
+imgsensor_src/sensorlist.cpp:#if defined(IMX219_MIPI_RAW)
+imgsensor_src/sensorlist.cpp:    RAW_INFO(IMX219_SENSOR_ID, SENSOR_DRVNAME_IMX219_MIPI_RAW, CAM_CALGetCalData),
+imgsensor_metadata/imx219_mipi_raw/config_static_metadata.tuning_3a.imx219mipiraw.h:STATIC_METADATA2_BEGIN(DEVICE, TUNING_3A, SENSOR_DRVNAME_IMX219_MIPI_RAW)
+imgsensor_metadata/imx219_mipi_raw/config_static_metadata.project.camera.imx219mipiraw.h:STATIC_METADATA_BEGIN(DEVICE, CAMERA, SENSOR_DRVNAME_IMX219_MIPI_RAW)
+imgsensor_metadata/imx219_mipi_raw/config_static_metadata.lens.imx219mipiraw.h:STATIC_METADATA2_BEGIN(DEVICE, LENS, SENSOR_DRVNAME_IMX219_MIPI_RAW)
+imgsensor_metadata/imx219_mipi_raw/config_static_metadata_request_commonType.h:STATIC_METADATA2_BEGIN(DEVICE, REQUEST, SENSOR_DRVNAME_IMX219_MIPI_RAW)
+imgsensor_metadata/imx219_mipi_raw/config_static_metadata_scaler.h:STATIC_METADATA2_BEGIN(DEVICE, SCALER, SENSOR_DRVNAME_IMX219_MIPI_RAW)
+imgsensor_metadata/imx219_mipi_raw/config_request_metadata__.h:REQUEST_METADATA_BEGIN(SENSOR_DRVNAME_IMX219_MIPI_RAW)
+imgsensor_metadata/imx219_mipi_raw/config_static_metadata_feature.h:STATIC_METADATA2_BEGIN(DEVICE, FEATURE, SENSOR_DRVNAME_IMX219_MIPI_RAW)
+imgsensor_metadata/imx219_mipi_raw/config_static_metadata.sensor.imx219mipiraw.h:STATIC_METADATA2_BEGIN(DEVICE, SENSOR, SENSOR_DRVNAME_IMX219_MIPI_RAW)
+imgsensor_metadata/imx219_mipi_raw/config_static_metadata.project.flashlight.imx219mipiraw.h:STATIC_METADATA2_BEGIN(DEVICE, FLASHLIGHT, SENSOR_DRVNAME_IMX219_MIPI_RAW)
+sendepfeature/imx219_mipi_raw/config.ftbl.imx219_mipi_raw.h:FTABLE_DEFINITION(SENSOR_DRVNAME_IMX219_MIPI_RAW)
+imgsensor/imx219_mipi_raw/camera_flicker_para_imx219mipiraw.cpp://name = imx219mipiraw
+imgsensor/imx219_mipi_raw/camera_flicker_para_imx219mipiraw.cpp:#include "camera_AE_PLineTable_imx219mipiraw.h"
+imgsensor/imx219_mipi_raw/camera_flicker_para_imx219mipiraw.cpp:#include "camera_info_imx219mipiraw.h"
+imgsensor/imx219_mipi_raw/camera_AE_PLineTable_imx219mipiraw.h:#ifndef _CAMERA_AE_PLINETABLE_IMX219MIPIRAW_H
+imgsensor/imx219_mipi_raw/camera_AE_PLineTable_imx219mipiraw.h:#define _CAMERA_AE_PLINETABLE_IMX219MIPIRAW_H
+imgsensor/imx219_mipi_raw/camera_tuning_para_imx219mipiraw.cpp:#include "camera_AE_PLineTable_imx219mipiraw.h"
+imgsensor/imx219_mipi_raw/camera_tuning_para_imx219mipiraw.cpp:#include "camera_info_imx219mipiraw.h"
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#ifndef _CAMERA_INFO_IMX219MIPIRAW_H
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define _CAMERA_INFO_IMX219MIPIRAW_H
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define SENSOR_ID                           IMX219_SENSOR_ID
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define SENSOR_DRVNAME                      SENSOR_DRVNAME_IMX219_MIPI_RAW
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define INCLUDE_FILENAME_ISP_REGS_PARAM     "camera_isp_regs_imx219mipiraw.h"
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define INCLUDE_FILENAME_ISP_PCA_PARAM      "camera_isp_pca_imx219mipiraw.h"
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define INCLUDE_FILENAME_ISP_LSC_PARAM      "camera_isp_lsc_imx219mipiraw.h"
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define INCLUDE_FILENAME_TSF_PARA           "camera_tsf_para_imx219mipiraw.h"
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define INCLUDE_FILENAME_TSF_DATA           "camera_tsf_data_imx219mipiraw.h"
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define INCLUDE_FILENAME_FLASH_AWB_PARA     "camera_flash_awb_para_imx219mipiraw.h"
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define IMX219MIPIRAW_CAMERA_AUTO_DSC CAM_AUTO_DSC
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define IMX219MIPIRAW_CAMERA_PORTRAIT CAM_PORTRAIT
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define IMX219MIPIRAW_CAMERA_LANDSCAPE CAM_LANDSCAPE
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define IMX219MIPIRAW_CAMERA_SPORT CAM_SPORT
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define IMX219MIPIRAW_CAMERA_FLOWER CAM_FLOWER
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define IMX219MIPIRAW_CAMERA_NIGHTSCENE CAM_NIGHTSCENE
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define IMX219MIPIRAW_CAMERA_DOCUMENT CAM_DOCUMENT
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define IMX219MIPIRAW_CAMERA_ISO_ANTI_HAND_SHAKE CAM_ISO_ANTI_HAND_SHAKE
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define IMX219MIPIRAW_CAMERA_ISO100 CAM_ISO100
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define IMX219MIPIRAW_CAMERA_ISO200 CAM_ISO200
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define IMX219MIPIRAW_CAMERA_ISO400 CAM_ISO400
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define IMX219MIPIRAW_CAMERA_ISO800 CAM_ISO800
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define IMX219MIPIRAW_CAMERA_ISO1600 CAM_ISO1600
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define IMX219MIPIRAW_CAMERA_VIDEO_AUTO CAM_VIDEO_AUTO
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define IMX219MIPIRAW_CAMERA_VIDEO_NIGHT CAM_VIDEO_NIGHT
+imgsensor/imx219_mipi_raw/camera_info_imx219mipiraw.h:#define IMX219MIPIRAW_CAMERA_NO_OF_SCENE_MODE CAM_NO_OF_SCENE_MODE
